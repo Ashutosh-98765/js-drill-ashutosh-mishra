@@ -6,7 +6,7 @@ const items = [1, 2, 3, 4, 5, 5]; // use this array to test your code.
     The idea here is to recreate the functions from scratch BUT if you'd like,
     feel free to Re-use any of your functions you build within your other functions.
     **DONT** Use for example. .forEach() to recreate each, and .map() to recreate map etc.
-    You CAN use concat, push, pop, etc. but do not use the exact method that you are replicating
+    You CAN use concat, push and pop, etc. but do not use the exact method that you are replicating
 
 */
 
