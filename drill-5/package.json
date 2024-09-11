@@ -1,0 +1,13 @@
+{
+  "name": "drill-5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "object.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "title":"module",
+  "license": "ISC"
+  
+}
