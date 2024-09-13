@@ -3,7 +3,8 @@ const testObject = { name: "Bruce Wayne", age: 36, location: "Gotham" }; // use 
 // Complete the following underscore functions.
 // Reference http://underscorejs.org/ for examples.
 // Check and use MDN as well
-// PROJECT RESTRICTION: You can't use the built in Object methods.  Only use native JavaScript for loops. No other types of loops are allowed.
+// PROJECT RESTRICTION: You can't use the built in Object methods.  Only use 
+// native JavaScript for loops. No other types of loops are allowed.
 // PROJECT RESTRICTION: You can't use the underscore library or any other external library.
 
 function keys(obj) {
@@ -19,7 +20,8 @@ function values(obj) {
 }
 
 function mapObject(obj, cb) {
-  // Like map for arrays, but for objects. Transform the value of each property in turn by passing it to the callback function.
+  // Like map for arrays, but for objects. Transform the value of each property in turn
+  //  by passing it to the callback function.
   // http://underscorejs.org/#mapObject
 }
 
