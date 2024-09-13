@@ -6,7 +6,8 @@ const items = [1, 2, 3, 4, 5, 5]; // use this array to test your code.
     The idea here is to recreate the functions from scratch BUT if you'd like,
     feel free to Re-use any of your functions you build within your other functions.
     **DONT** Use for example. .forEach() to recreate each, and .map() to recreate map etc.
-    You CAN use concat, push and pop, etc. but do not use the exact method that you are replicating
+    You CAN use concat, push and pop, etc. but do not use the exact method that you are
+     replicating
 
 */
 
@@ -20,17 +21,22 @@ function each(elements, cb) {
 
 function map(elements, cb) {
   // Do NOT use .map, to complete this function.
-  // How map works: Map calls a provided callback function once for each element in an array, in order, and functionructs a new array from the res .
-  // Produces a new array of values by mapping each value in list through a transformation function (iteratee).
+  // How map works: Map calls a provided callback function once for each element in an array,
+  //  in order, and functionructs a new array from the res .
+  // Produces a new array of values by mapping each value in list through a transformation
+  //  function (iteratee).
   // Return the new array.
 }
 
 function reduce(elements, cb, startingValue) {
   // Do NOT use .reduce to complete this function.
-  // How reduce works: A reduce function combines all elements into a single value going from left to right.
+  // How reduce works: A reduce function combines all elements into a single value going
+  //  from left to right.
   // Elements will be passed one by one into `cb` along with the `startingValue`.
-  // `startingValue` should be the first argument passed to `cb` and the array element should be the second argument.
-  // `startingValue` is the starting value.  If `startingValue` is undefined then make `elements[0]` the initial value.
+  // `startingValue` should be the first argument passed to `cb` and the array element should
+  //  be the second argument.
+  // `startingValue` is the starting value.  If `startingValue` is undefined then 
+  // make `elements[0]` the initial value.
 }
 
 function find(elements, cb) {
@@ -42,7 +48,8 @@ function find(elements, cb) {
 
 function filter(elements, cb) {
   // Do NOT use .filter, to complete this function.
-  // Similar to `find` but you will return an array of all elements that passed the truth test
+  // Similar to `find` but you will return an array of all elements that passed the 
+  // truth test
   // Return an empty array if no elements pass the truth test
 }
 
