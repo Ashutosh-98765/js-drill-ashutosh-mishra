@@ -1,7 +1,9 @@
 
-import { arrayOfObjects } from "./persons.js";
+// import { arrayOfObjects } from "./persons.js";
+import { arrayOfObjects } from "/home/dell/js-drill-ashutosh-mishra/drill-2/person.js"
 
-//    Given the dataset of individuals, write a function that accesses and returns the email addresses of all individuals.
+//    Given the dataset of individuals, write a function that 
+// accesses and returns the email addresses of all individuals.
 
 function emailOfPerson(data){
     if(!data || !Array.isArray(data)){
@@ -23,7 +25,8 @@ export {
 };
 
 
-//    Implement a function that retrieves and prints the hobbies of individuals with a specific age, say 30 years old.
+//    Implement a function that retrieves and prints the hobbies
+//  of individuals with a specific age, say 30 years old.
 
 function  getNameAndAge(arr,age){
 
@@ -44,7 +47,9 @@ export{
 };
 
 
-//Create a function that extracts and displays the names of individuals who are students (`isStudent: true`) and live in Australia.
+//Create a function that extracts and displays the names of 
+// individuals who are students (`isStudent: true`) and live in 
+// Australia.
 
 function personWhoIsStudent(data){
 
@@ -74,7 +79,8 @@ export {
 }
 
 
-//    Write a function that accesses and logs the name and city of the individual at the index position 3 in the dataset.
+//    Write a function that accesses and logs the name and city of 
+// the individual at the index position 3 in the dataset.
 
 function getIndexNo3(data,index){
     if(!data || !Array.isArray(data)){
@@ -90,7 +96,8 @@ export {
     getIndexNo3
 }
 
-//    Implement a loop to access and print the ages of all individuals in the dataset.
+//    Implement a loop to access and print the ages of all 
+// individuals in the dataset.
 
 function allPersonAge(data) {
     if (!data || !Array.isArray(data)) {
@@ -106,7 +113,8 @@ function allPersonAge(data) {
 export { allPersonAge};
 
 
-// Create a function to retrieve and display the first hobby of each individual in the dataset.
+// Create a function to retrieve and display the first hobby of each 
+// individual in the dataset.
 
 function  firstHobby(data){
       if(!data || !Array.isArray(data)){
@@ -125,7 +133,8 @@ export {
     firstHobby
 }
 
-//Write a function that accesses and prints the names and email addresses of individuals aged 25.
+//Write a function that accesses and prints the names and email 
+// addresses of individuals aged 25.
 
 function nameEmailOfAge25(data) {
     if(!data ||!Array.isArray(data)){
@@ -144,7 +153,8 @@ export{
     nameEmailOfAge25
 }
 
-//Implement a loop to access and log the city and country of each individual in the dataset.
+//Implement a loop to access and log the city and country of each 
+// individual in the dataset.
 
 function cityAndCountry(data) {
     if(!data || !Array.isArray(data)){
