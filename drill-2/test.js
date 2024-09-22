@@ -1,4 +1,5 @@
-import { arrayOfObjects } from "./persons.js";
+// import { arrayOfObjects } from "./persons.js";
+import { arrayOfObjects } from "/home/dell/js-drill-ashutosh-mishra/drill-2/person.js"
 import {emailOfPerson } from "./solution.js"
 import { getNameAndAge } from "./solution.js"
 import { personWhoIsStudent} from "./solution.js"
